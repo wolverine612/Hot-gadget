@@ -1,0 +1,88 @@
+.navbar-brand img{
+    width: 150px;
+    height: 80px;
+    object-fit: contain;
+}
+.carousel-indicators{
+    bottom: -20px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 40px;
+    height: 10px;
+    padding: 0px;
+    background: rgb(255,164,47);
+    /* background: linear-gradient(90deg, rgba(255,164,47,1) 50%, rgba(66,137,255,0.8995973389355743) 100%); */
+    border: 0;
+    border-radius: 10px;
+
+}
+.carousel-indicators .active{
+    width: 50px;
+}
+/* common btn */
+.btn-primary{
+    background: rgb(255,164,47);
+    background: linear-gradient(90deg, rgba(255,164,47,1) 50%, rgba(66,137,255,0.8995973389355743) 100%);
+    border: 1px solid rgb(255,164,47);
+
+}
+.phone-see-all{
+    text-decoration: none;
+    color: rgb(255,164,47);
+}
+/* phone buy now */
+.phone-buy-now{
+    text-decoration: none;
+}
+.card{
+    border: 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.card:hover{
+    box-shadow: rgba(169, 164, 164, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+/* Categories start */
+.categories span{
+    display: block;
+    height: 7px;
+    width: 120px;
+    border-radius: 10px;
+    background: rgb(255,164,47);
+    margin: auto;
+
+}
+
+.category-box{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 30px;
+    border-radius: 10px;
+}
+/* footer */
+.footer{
+    background: rgb(255,164,47);
+    background: linear-gradient(90deg, rgba(255, 165, 47, 0.906) 50%, rgba(66,137,255,0.8995973389355743) 100%);
+}
+
+.text-justify{
+
+}
+.row p{
+    letter-spacing: 2px;
+}
+
+.list{
+    list-style: none;
+}
+
+.list a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding-bottom: 35px;
+    letter-spacing: 2px;
+}
+
+.list a:hover{
+    color: rgb(221, 129, 10);
+    transition: all 0.3s linear;
+}
